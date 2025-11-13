@@ -49,7 +49,7 @@ export default function Carousel({
 
     useEffect(() => {
         if (typeof window === 'undefined') return;
-        
+
         const updateDimensions = () => {
             const screenWidth = window.innerWidth;
 
@@ -188,7 +188,7 @@ export default function Carousel({
                             key={index}
                             className={`relative shrink-0 flex flex-col ${round
                                 ? 'items-center justify-center text-center bg-foreground border-0'
-                                : 'items-center justify-center bg-[#222] rounded-[12px]'
+                                : 'items-center justify-center bg-foreground rounded-[12px]'
                                 } overflow-hidden cursor-grab active:cursor-grabbing`}
                             style={{
                                 width: itemWidth,
@@ -225,8 +225,8 @@ export default function Carousel({
                                     ? 'bg-background'
                                     : 'bg-background'
                                 : round
-                                    ? 'bg-[#555]'
-                                    : 'bg-foreground'
+                                    ? 'bg-background/40'
+                                    : 'bg-background/40'
                                 }`}
                             animate={{
                                 scale: currentIndex % items.length === index ? 1.2 : 1,

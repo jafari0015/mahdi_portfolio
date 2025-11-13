@@ -18,7 +18,7 @@ const SkillServices = () => {
         Skill & Services
       </h1>
 
-      <div className="text-foreground text-[33px] md:text-6xl lg:text-7xl lg:ml-20 xl:ml-0 xl:text-9xl font-bold pl-0 2xl:pl-80 space-y-8">
+      <div className="text-foreground text-2xl md:text-6xl lg:text-7xl lg:ml-20 xl:ml-0 xl:text-9xl font-bold pl-0 2xl:pl-80 space-y-8">
         {skills.map((skill, index) => (
           <h1 key={index} className="flex items-center gap-4 flex-wrap">
             <span>{skill.title}</span>
