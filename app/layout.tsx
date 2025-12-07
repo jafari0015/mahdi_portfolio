@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Mahdi Jafari | Portfolio",
-    description: "The portfolio of Mahdi Jafari – Web Developer, UI/UX Designer, and Creative Technologist.",
+    description: "Web Developer & Mobile Developer , UI/UX Designer, and Creative Technologist.",
     url: "https://yourwebsite.com",
     siteName: "Mahdi Jafari Portfolio",
     images: [
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Mahdi Jafari | Portfolio",
-    description: "The portfolio of Mahdi Jafari – Web Developer, UI/UX Designer, and Creative Technologist.",
+    description: "Web Developer & Mobile Developer , UI/UX Designer, and Creative Technologist.",
     siteId: "@YourTwitterHandle",
     creator: "@YourTwitterHandle",
     images: ["/og-image.png"],
